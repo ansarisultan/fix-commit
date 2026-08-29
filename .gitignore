@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# SecretGuard
+.secretguard/registry.json
+.env
+.env.*
+!.env.example
+
+# Testing & Coverage
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
